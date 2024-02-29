@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(201, 201, 201) ;
+  background-color: black  ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,7 +10,17 @@ html {
   height: 100%;
 }
 
-.fist {
-  height: 500px;
-  width: 500px;
+.press-start {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box {
+background-color: white;
+aspect-ratio: 1/1;
+}
+
+@keyframes loading {
+  
 }
