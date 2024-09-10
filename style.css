@@ -10,17 +10,11 @@ html {
   height: 100%;
 }
 
-.press-start {
-  font-family: "Press Start 2P", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.box {
-background-color: white;
-aspect-ratio: 1/1;
-}
-
-@keyframes loading {
-  
+.panoramic {
+  height: 500px;
+  width: 100%;
+  background-image: url(Caltech_Entrance\ 1.png);
+  background-size: 180%, 180%;
+  background-position: bottom left;
+  background-repeat: no-repeat;
 }
